@@ -1,0 +1,11 @@
+/* Global dark mode styles */
+.dark-mode {
+  color: #f2f2f2;
+  transition: color 0.3s;
+}
+
+/* Global light mode styles */
+.light-mode {
+  color: #333;
+  transition: color 0.3s;
+}

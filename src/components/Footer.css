@@ -1,0 +1,42 @@
+section {
+    padding: 30px 10% 40px;
+    list-decoration: none;
+    list-style: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+}
+
+.footer-content h4 {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content p {
+    color: #d6d6d6;
+    font: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon a {
+    display: inline-block;
+    font-size: 25px;
+    color: #d6d6d6;
+    margin-right: 20px;
+    transition: all .40s ease;
+}
